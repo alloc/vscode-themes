@@ -1,0 +1,50 @@
+{
+  "name": "vscode-themes-to-die-for",
+  "displayName": "Themes To Die For",
+  "description": "A collection of my favorite VS Code themes",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "publisher": "aleclarson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alloc/vscode-themes.git"
+  },
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Minimal Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minimal-green.json"
+      },
+      {
+        "label": "New England",
+        "uiTheme": "vs",
+        "path": "./themes/new-england.json"
+      },
+      {
+        "label": "Remedy Bright",
+        "uiTheme": "vs",
+        "path": "./themes/remedy-bright.json"
+      },
+      {
+        "label": "Seoul Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/seoul-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "update": "sucrase-node update.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "json-in-place": "^1.0.1",
+    "sucrase": "^3.34.0"
+  }
+}
