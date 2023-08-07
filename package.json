@@ -18,6 +18,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "BlueSky",
+        "uiTheme": "vs",
+        "path": "./themes/blueSky.json"
+      },
+      {
         "label": "Minimal Green",
         "uiTheme": "vs-dark",
         "path": "./themes/minimal-green.json"
@@ -26,6 +31,11 @@
         "label": "New England",
         "uiTheme": "vs",
         "path": "./themes/new-england.json"
+      },
+      {
+        "label": "PastelSky",
+        "uiTheme": "vs",
+        "path": "./themes/pastelSky.json"
       },
       {
         "label": "Remedy Bright",
@@ -45,10 +55,12 @@
   },
   "devDependencies": {
     "@types/chroma-js": "^2.4.0",
+    "@types/fs-extra": "^11.0.1",
     "@types/minimist": "^1.2.2",
     "@types/node": "^20.4.8",
     "chalk": "^4.1.2",
     "chroma-js": "^2.4.2",
+    "fs-extra": "^11.1.1",
     "json-in-place": "^1.0.1",
     "jsonc": "^2.0.0",
     "minimist": "^1.2.8",

@@ -11,11 +11,6 @@ let {
   o: outFile,
 } = minimist(process.argv.slice(2));
 
-if (!outFile) {
-  console.error("Missing output file path. Use -o <path>");
-  process.exit(1);
-}
-
 const template = jsonc.parse(
   fs.readFileSync(templatePath || join(__dirname, "template.json"), "utf8")
 );
@@ -32,9 +27,15 @@ applyMixer(template);
 logColors(uiColors);
 logColors(tokenColors);
 
-outFile = join("themes", outFile.replace(/(\.json)?$/, ".json"));
-fs.mkdirSync(dirname(outFile), { recursive: true });
-fs.writeFileSync(outFile, jsonc.stringify(template, { space: 2 }));
+if (outFile) {
+  outFile = join("themes", outFile.replace(/(\.json)?$/, ".json"));
+  fs.mkdirSync(dirname(outFile), { recursive: true });
+  fs.writeFileSync(outFile, jsonc.stringify(template, { space: 2 }));
+} else {
+  console.warn(
+    "\n" + chalk.yellow("No output file specified, not writing anything")
+  );
+}
 
 function logColors(colors: any[][]) {
   const alphaSort = (a: any[], b: any[]) => (b[1] > a[1] ? -1 : 1);
