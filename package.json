@@ -40,11 +40,16 @@
     ]
   },
   "scripts": {
+    "generate": "sucrase-node generate/index.ts",
     "update": "sucrase-node update.ts"
   },
   "devDependencies": {
+    "@types/chroma-js": "^2.4.0",
     "@types/node": "^20.4.5",
+    "chalk": "^4.1.2",
+    "chroma-js": "^2.4.2",
     "json-in-place": "^1.0.1",
+    "jsonc": "^2.0.0",
     "sucrase": "^3.34.0"
   }
 }
