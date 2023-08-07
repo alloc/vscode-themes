@@ -8,8 +8,11 @@ devDependencies:
   '@types/chroma-js':
     specifier: ^2.4.0
     version: 2.4.0
+  '@types/minimist':
+    specifier: ^1.2.2
+    version: 1.2.2
   '@types/node':
-    specifier: ^20.4.5
+    specifier: ^20.4.8
     version: 20.4.8
   chalk:
     specifier: ^4.1.2
@@ -23,6 +26,9 @@ devDependencies:
   jsonc:
     specifier: ^2.0.0
     version: 2.0.0
+  minimist:
+    specifier: ^1.2.8
+    version: 1.2.8
   sucrase:
     specifier: ^3.34.0
     version: 3.34.0
@@ -61,6 +67,10 @@ packages:
 
   /@types/chroma-js@2.4.0:
     resolution: {integrity: sha512-JklMxityrwjBTjGY2anH8JaTx3yjRU3/sEHSblLH1ba5lqcSh1LnImXJZO5peJfXyqKYWjHTGy4s5Wz++hARrw==}
+    dev: true
+
+  /@types/minimist@1.2.2:
+    resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
   /@types/node@20.4.8:

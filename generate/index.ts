@@ -1,34 +1,50 @@
 import chroma from "chroma-js";
 import fs from "fs";
-import { join } from "path";
+import { dirname, join } from "path";
 import { jsonc } from "jsonc";
 import chalk from "chalk";
+import minimist from "minimist";
+
+let {
+  _: [templatePath],
+  m: mixerName,
+  o: outFile,
+} = minimist(process.argv.slice(2));
+
+if (!outFile) {
+  console.error("Missing output file path. Use -o <path>");
+  process.exit(1);
+}
 
 const template = jsonc.parse(
-  fs.readFileSync(process.argv[2] || join(__dirname, "template.json"), "utf8")
+  fs.readFileSync(templatePath || join(__dirname, "template.json"), "utf8")
 );
+
+const mixer: {
+  mix(color: chroma.Color, keyPath: string[]): chroma.Color;
+} = mixerName ? require(`./mixers/${mixerName}.ts`) : { mix: (c) => c };
 
 const uiColors: any[][] = [];
 const tokenColors: any[][] = [];
 
-collectHexColors(template);
+applyMixer(template);
 
 logColors(uiColors);
 logColors(tokenColors);
+
+outFile = join("themes", outFile.replace(/(\.json)?$/, ".json"));
+fs.mkdirSync(dirname(outFile), { recursive: true });
+fs.writeFileSync(outFile, jsonc.stringify(template, { space: 2 }));
 
 function logColors(colors: any[][]) {
   const alphaSort = (a: any[], b: any[]) => (b[1] > a[1] ? -1 : 1);
   colors.sort(alphaSort).forEach((color) => console.log(...color));
 }
 
-function collectHexColors(
-  obj: any,
-  parents: any[] = [],
-  keyPath: any[] = []
-): void {
+function applyMixer(obj: any, parents: any[] = [], keyPath: any[] = []): void {
   if (Array.isArray(obj)) {
     return obj.forEach((value, i) =>
-      collectHexColors(value, [...parents, obj], [...keyPath, i])
+      applyMixer(value, [...parents, obj], [...keyPath, i])
     );
   }
   if (!obj || typeof obj !== "object") {
@@ -53,14 +69,18 @@ function collectHexColors(
         colors = uiColors;
       }
 
-      const color = chroma(value);
-
-      const hue = color.get("hsl.h");
-      const saturation = color.get("hsl.s");
-      const lightness = color.get("hsl.l");
-      const brightness = color.get("hsv.v");
+      const sourceColor = chroma(value);
 
       for (const name of names) {
+        const color = mixer.mix(sourceColor, name.split("."));
+        // TODO: what if mixer returns different color for different name??
+        obj[key] = color.hex();
+
+        const hue = color.get("hsl.h");
+        const saturation = color.get("hsl.s");
+        const lightness = color.get("hsl.l");
+        const brightness = color.get("hsv.v");
+
         colors.push([
           chalk.hex(value)("█ ") + `%s\n  %s\t(H: %O, S: %O, L: %O, B: %O)`,
           name,
@@ -72,7 +92,7 @@ function collectHexColors(
         ]);
       }
     } else {
-      collectHexColors(value, [...parents, obj], [...keyPath, key]);
+      applyMixer(value, [...parents, obj], [...keyPath, key]);
     }
   }
 }
