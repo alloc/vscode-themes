@@ -47,7 +47,7 @@
     "editor.wordHighlightStrongBackground": "#83b4d690",
     "editorBracketMatch.background": "#83b4d650",
     "editorBracketMatch.border": "#83b4d600",
-    "editorCodeLens.foreground": "#f0e5c9",
+    "editorCodeLens.foreground": "#2aa198",
     "editorCursor.foreground": "#3e454e",
     "editorError.foreground": "#dc322f",
     "editorGroup.border": "#e3d8be",
