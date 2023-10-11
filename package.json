@@ -15,40 +15,7 @@
   "categories": [
     "Themes"
   ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "BlueSky",
-        "uiTheme": "vs",
-        "path": "./themes/blueSky.json"
-      },
-      {
-        "label": "Minimal Green",
-        "uiTheme": "vs-dark",
-        "path": "./themes/minimal-green.json"
-      },
-      {
-        "label": "New England",
-        "uiTheme": "vs",
-        "path": "./themes/new-england.json"
-      },
-      {
-        "label": "PastelSky",
-        "uiTheme": "vs",
-        "path": "./themes/pastelSky.json"
-      },
-      {
-        "label": "Remedy Bright",
-        "uiTheme": "vs",
-        "path": "./themes/remedy-bright.json"
-      },
-      {
-        "label": "Seoul Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/seoul-dark.json"
-      }
-    ]
-  },
+  "contributes": {"themes":[{"label":"Minimal Green","uiTheme":"vs-dark","path":"./themes/minimal-green.json"},{"label":"New England","uiTheme":"vs","path":"./themes/new-england.json"},{"label":"Remedy Bright","uiTheme":"vs","path":"./themes/remedy-bright.json"},{"label":"Rose Pine Dawn","uiTheme":"vs","path":"./themes/rose-pine-dawn.json"},{"label":"Seoul Dark","uiTheme":"vs-dark","path":"./themes/seoul-dark.json"},{"label":"Tokyo City Lighter","uiTheme":"vs","path":"./themes/tokyo-city-lighter.json"},{"label":"Tokyo Night Light","uiTheme":"vs","path":"./themes/tokyo-night-light.json"},{"label":"Vitesse Light Soft","uiTheme":"vs","path":"./themes/vitesse-light-soft.json"}]},
   "scripts": {
     "generate": "sucrase-node generate/index.ts",
     "update": "sucrase-node update.ts"

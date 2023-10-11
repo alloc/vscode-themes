@@ -18,6 +18,14 @@ All of my favorite editor themes.
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/remedy-bright.png" width="600" />
 
+### [Vitesse Light Soft](https://github.com/antfu/vscode-theme-vitesse.git)
+
+### [Tokyo City Lighter](https://github.com/huytd/vscode-tokyo-city)
+
+### [Tokyo Night Light](https://github.com/enkia/tokyo-night-vscode-theme)
+
+### [Rosé Pine Dawn](https://github.com/rose-pine/vscode)
+
 &nbsp;
 
 ## Adding new themes
