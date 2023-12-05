@@ -724,9 +724,17 @@
       }
     },
     {
-      "scope": ["constant.numeric", "constant.language"],
+      "scope": ["constant.language"],
       "settings": {
-        "foreground": "#D7827E"
+        "foreground": "#907AA9",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language.infinity"],
+      "settings": {
+        "foreground": "#D7827E",
+        "fontStyle": ""
       }
     },
     {
