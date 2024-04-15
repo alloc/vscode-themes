@@ -4,6 +4,7 @@ import { dirname, join } from "path";
 import { jsonc } from "jsonc";
 import chalk from "chalk";
 import minimist from "minimist";
+import stripAnsi from "strip-ansi";
 
 let {
   _: [templatePath],
@@ -73,9 +74,9 @@ function applyMixer(obj: any, parents: any[] = [], keyPath: any[] = []): void {
       const sourceColor = chroma(value);
 
       for (const name of names) {
-        const color = mixer.mix(sourceColor, name.split("."));
+        const color = mixer.mix(sourceColor, stripAnsi(name).split("."));
         // TODO: what if mixer returns different color for different name??
-        obj[key] = color.hex();
+        const newValue = (obj[key] = color.hex()).toUpperCase();
 
         const hue = color.get("hsl.h");
         const saturation = color.get("hsl.s");
@@ -83,9 +84,9 @@ function applyMixer(obj: any, parents: any[] = [], keyPath: any[] = []): void {
         const brightness = color.get("hsv.v");
 
         colors.push([
-          chalk.hex(value)("█ ") + `%s\n  %s\t(H: %O, S: %O, L: %O, B: %O)`,
+          chalk.hex(newValue)("█ ") + `%s\n  %s\t(H: %O, S: %O, L: %O, B: %O)`,
           name,
-          chalk.blue(value.toUpperCase()),
+          chalk.blue(newValue),
           isNaN(hue) ? -1 : +hue.toFixed(1),
           +(saturation * 100).toFixed(1),
           +(lightness * 100).toFixed(1),
