@@ -22,6 +22,8 @@ All of my favorite editor themes.
 
 ### [Tokyo Night Light](https://github.com/enkia/tokyo-night-vscode-theme)
 
+### [Gruvbox Dark Moist](https://github.com/CraigglesO/gruvbox-dark-moist-vscode)
+
 &nbsp;
 
 ## Adding new themes
