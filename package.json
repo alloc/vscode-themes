@@ -18,6 +18,11 @@
   "contributes": {
     "themes": [
       {
+        "label": "Gruvbox Dark Moist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvbox-dark-moist.json"
+      },
+      {
         "label": "Minimal Green",
         "uiTheme": "vs-dark",
         "path": "./themes/minimal-green.json"
