@@ -43,19 +43,9 @@
         "path": "./themes/seoul-dark.json"
       },
       {
-        "label": "Tokyo City Lighter",
-        "uiTheme": "vs",
-        "path": "./themes/tokyo-city-lighter.json"
-      },
-      {
         "label": "Tokyo Night Light",
         "uiTheme": "vs",
         "path": "./themes/tokyo-night-light.json"
-      },
-      {
-        "label": "Vitesse Light Soft",
-        "uiTheme": "vs",
-        "path": "./themes/vitesse-light-soft.json"
       }
     ]
   },
