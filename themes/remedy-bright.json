@@ -450,6 +450,7 @@
     "terminalCommandDecoration.errorBackground": "#a54242",
     "terminalCommandDecoration.successBackground": "#8c9440",
     "terminalCursor.foreground": "#594318",
+    "terminalCursor.background": "#ff0000",
     "testing.iconErrored": "#a54242",
     "testing.iconFailed": "#a54242",
     "testing.iconPassed": "#8c9440",
