@@ -459,7 +459,7 @@
     "testing.iconUnset": "#5f819d",
     "testing.message.error.decorationForeground": "#130e06",
     "testing.message.error.lineBackground": "#a5424266",
-    "testing.message.info.decorationForeground": "#130e06",
+    "testing.message.info.decorationForeground": "#252525",
     "testing.message.info.lineBackground": "#5f819d66",
     "testing.peekBorder": "#efd7a6",
     "testing.runAction": "#ad8c49",
