@@ -26,7 +26,7 @@
     "editor.foreground": "#cabfa4",
     "editor.hoverHighlightBackground": "#689d6a50",
     "editor.lineHighlightBackground": "#494f3f60",
-    "editor.lineHighlightBorder": "#fff",
+    "editor.lineHighlightBorder": "#555c4a60",
     "editor.selectionBackground": "#689d6a40",
     "editor.selectionHighlightBackground": "#d4b77c40",
     "editorBracketHighlight.foreground1": "#b16286",
