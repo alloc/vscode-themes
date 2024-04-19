@@ -2,13 +2,25 @@
 
 All of my favorite editor themes.
 
+### [Minimal Green](https://github.com/mdoyleaz/vs-code-theme-minimal_green)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/minimal-green.png" width="600" />
+
+### [Gruvbox Material Dark](https://marketplace.visualstudio.com/items?itemName=EstevamSouza.the-best-themes-for-programmers)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-material-dark.png" width="600" />
+
 ### [Seoul Dark](https://github.com/aleclarson/vscode-seoul-dark)
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/seoul-dark.png" width="600" />
 
-### [Minimal Green](https://github.com/mdoyleaz/vs-code-theme-minimal_green)
+### [Gruvbox Dark Moist](https://github.com/CraigglesO/gruvbox-dark-moist-vscode)
 
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/minimal-green.png" width="600" />
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-dark-moist.png" width="600" />
+
+### [Rosé Pine Dawn](https://github.com/rose-pine/vscode)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/rose-pine-dawn.png" width="600" />
 
 ### [New England](https://github.com/dustypomerleau/new-england)
 
@@ -18,21 +30,9 @@ All of my favorite editor themes.
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/remedy-bright.png" width="600" />
 
-### [Rosé Pine Dawn](https://github.com/rose-pine/vscode)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/rose-pine-dawn.png" width="600" />
-
 ### [Tokyo Night Light](https://github.com/enkia/tokyo-night-vscode-theme)
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/tokyo-night-light.png" width="600" />
-
-### [Gruvbox Dark Moist](https://github.com/CraigglesO/gruvbox-dark-moist-vscode)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-dark-moist.png" width="600" />
-
-### [Gruvbox Material Dark](https://marketplace.visualstudio.com/items?itemName=EstevamSouza.the-best-themes-for-programmers)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-material-dark.png" width="600" />
 
 &nbsp;
 
