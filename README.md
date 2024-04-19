@@ -20,11 +20,19 @@ All of my favorite editor themes.
 
 ### [Rosé Pine Dawn](https://github.com/rose-pine/vscode)
 
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/rose-pine-dawn.png" width="600" />
+
 ### [Tokyo Night Light](https://github.com/enkia/tokyo-night-vscode-theme)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/tokyo-night-light.png" width="600" />
 
 ### [Gruvbox Dark Moist](https://github.com/CraigglesO/gruvbox-dark-moist-vscode)
 
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-dark-moist.png" width="600" />
+
 ### [Gruvbox Material Dark](https://marketplace.visualstudio.com/items?itemName=EstevamSouza.the-best-themes-for-programmers)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-material-dark.png" width="600" />
 
 &nbsp;
 
