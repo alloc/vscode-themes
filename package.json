@@ -23,6 +23,11 @@
         "path": "./themes/gruvbox-dark-moist.json"
       },
       {
+        "label": "Gruvbox Material Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gruvbox-material-dark.json"
+      },
+      {
         "label": "Minimal Green",
         "uiTheme": "vs-dark",
         "path": "./themes/minimal-green.json"

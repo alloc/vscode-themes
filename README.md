@@ -24,6 +24,8 @@ All of my favorite editor themes.
 
 ### [Gruvbox Dark Moist](https://github.com/CraigglesO/gruvbox-dark-moist-vscode)
 
+### [Gruvbox Material Dark](https://marketplace.visualstudio.com/items?itemName=EstevamSouza.the-best-themes-for-programmers)
+
 &nbsp;
 
 ## Adding new themes
