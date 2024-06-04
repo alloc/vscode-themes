@@ -56,6 +56,11 @@
         "label": "Tokyo Night Light",
         "uiTheme": "vs",
         "path": "./themes/tokyo-night-light.json"
+      },
+      {
+        "label": "Beginner Pro",
+        "uiTheme": "vs",
+        "path": "./themes/beginner-pro.jsonc"
       }
     ]
   },
