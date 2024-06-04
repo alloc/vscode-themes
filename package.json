@@ -60,7 +60,7 @@
       {
         "label": "Beginner Pro",
         "uiTheme": "vs",
-        "path": "./themes/beginner-pro.jsonc"
+        "path": "./themes/beginner-pro.json"
       }
     ]
   },
