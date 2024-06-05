@@ -222,6 +222,12 @@
       "name": "String"
     },
     {
+      "scope": ["punctuation.definition.template-expression"],
+      "settings": {
+        "foreground": "#362BCF"
+      }
+    },
+    {
       "name": "Ada workaround; don't highlight imports as strings",
       "scope": ["string.unquoted.import.ada"],
       "settings": {}
@@ -574,14 +580,9 @@
       }
     },
     {
-      "scope": ["punctuation.definition.template-expression"],
-      "settings": {
-        "foreground": "#362BCF"
-      }
-    },
-    {
       "scope": [
         "meta.object.type punctuation.definition.block",
+        "meta.objectliteral meta.object.type punctuation.definition.block",
         "meta.function.expression punctuation.definition.block",
         "meta.method.declaration.ts meta.block.ts punctuation.definition.block.ts"
       ],
