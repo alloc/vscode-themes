@@ -18,6 +18,12 @@ All of my favorite editor themes.
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-dark-moist.png" width="600" />
 
+### Beginner Pro
+
+_A theme made by myself and my brother._
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/beginner-pro.png" width="600" />
+
 ### [Rosé Pine Dawn](https://github.com/rose-pine/vscode)
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/rose-pine-dawn.png" width="600" />
