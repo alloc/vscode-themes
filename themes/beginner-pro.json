@@ -91,7 +91,7 @@
     {
       "scope": ["comment", "punctuation.definition.comment", "string.comment"],
       "settings": {
-        "foreground": "#6a737d"
+        "foreground": "#8A9BB2"
       },
       "name": "Comment"
     },
@@ -129,12 +129,37 @@
       "name": "Entity"
     },
     {
+      "scope": ["entity.name.type"],
+      "settings": {
+        "foreground": "#B42187"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.alias",
+        "entity.name.type.interface",
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "#994FC7"
+      }
+    },
+    {
       "scope": [
         "meta.field.declaration meta.definition.property entity.name",
         "meta.object-literal.key entity.name"
       ],
       "settings": {
         "foreground": "#000000"
+      }
+    },
+    {
+      "scope": [
+        "meta.type.tuple entity.name.label",
+        "punctuation.terminator.statement"
+      ],
+      "settings": {
+        "foreground": "#677281"
       }
     },
     {
@@ -522,6 +547,7 @@
         "keyword.operator.expression",
         "keyword.operator.type",
         "keyword.operator.optional",
+        "punctuation.separator.label",
         "punctuation.separator.key-value"
       ],
       "settings": {
@@ -585,6 +611,12 @@
       "scope": ["meta.tag.attributes.tsx keyword.operator.assignment.tsx"],
       "settings": {
         "foreground": "#032F62"
+      }
+    },
+    {
+      "scope": ["storage.type.class.jsdoc"],
+      "settings": {
+        "foreground": "#C97474"
       }
     }
   ]
