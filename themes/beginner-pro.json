@@ -169,7 +169,7 @@
       }
     },
     {
-      "scope": ["entity.name.tag"],
+      "scope": ["entity.name.tag", "entity.name.tag support.class.component"],
       "settings": {
         "foreground": "#3EA100"
       }
