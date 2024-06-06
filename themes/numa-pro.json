@@ -584,7 +584,8 @@
         "meta.object.type punctuation.definition.block",
         "meta.objectliteral meta.object.type punctuation.definition.block",
         "meta.function.expression punctuation.definition.block",
-        "meta.method.declaration.ts meta.block.ts punctuation.definition.block.ts"
+        "meta.method.declaration.ts meta.block.ts punctuation.definition.block.ts",
+        "meta.objectliteral meta.method.declaration meta.block punctuation.definition.block"
       ],
       "settings": {
         "foreground": "#000000"

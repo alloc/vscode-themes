@@ -22,6 +22,8 @@ All of my favorite editor themes.
 
 _A light theme you can't find anywhere else, where colors are used to help you understand your code._
 
+⚠️ Currently only optimized for TypeScript/TSX.
+
 **Special Features**
 
 - JSX and TypeScript syntax each has its own color palette, to help separate it from the JavaScript implementation.
