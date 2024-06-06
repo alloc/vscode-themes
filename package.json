@@ -58,9 +58,9 @@
         "path": "./themes/tokyo-night-light.json"
       },
       {
-        "label": "Beginner Pro",
+        "label": "Numa Pro",
         "uiTheme": "vs",
-        "path": "./themes/beginner-pro.json"
+        "path": "./themes/numa-pro.json"
       }
     ]
   },
