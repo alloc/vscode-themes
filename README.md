@@ -18,11 +18,19 @@ All of my favorite editor themes.
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-dark-moist.png" width="600" />
 
-### Beginner Pro
+### Numa Pro v1.0
 
-_A theme made by myself and my brother._
+_A light theme you can't find anywhere else, where colors are used to help you understand your code._
 
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/beginner-pro.png" width="600" />
+**Special Features**
+
+- JSX and TypeScript syntax each has its own color palette, to help separate it from the JavaScript implementation.
+  - JSX tags are light green and JSX attributes are dark blue.
+  - Primitive types are orange and other type references are magenta.
+- Function calls are a deep blue, function/class/type declaration names are a bright purple, and function parameters are navy.
+- The curly braces of an object literal are a blood orange, while all other curly braces (including those of an object _type_) are black, so you can easily identify a runtime object declaration.
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/numa-pro.png" width="600" />
 
 ### [Rosé Pine Dawn](https://github.com/rose-pine/vscode)
 
