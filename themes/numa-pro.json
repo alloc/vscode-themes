@@ -258,6 +258,17 @@
       }
     },
     {
+      "scope": [
+        "meta.class support.class",
+        "meta.class entity.other.inherited-class",
+        "meta.interface support.class",
+        "meta.interface entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#B42187"
+      }
+    },
+    {
       "scope": ["meta.property-name"],
       "settings": {
         "foreground": "#362BCF"
