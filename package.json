@@ -61,6 +61,11 @@
         "label": "Numa Pro",
         "uiTheme": "vs",
         "path": "./themes/numa-pro.json"
+      },
+      {
+        "label": "Numa Pro Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/numa-pro-dark.json"
       }
     ]
   },
