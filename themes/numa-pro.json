@@ -145,6 +145,18 @@
       }
     },
     {
+      "scope": ["meta.type punctuation.accessor"],
+      "settings": {
+        "foreground": "#B42187"
+      }
+    },
+    {
+      "scope": ["meta.type storage.modifier"],
+      "settings": {
+        "foreground": "#B42187"
+      }
+    },
+    {
       "scope": [
         "meta.field.declaration meta.definition.property entity.name",
         "meta.object-literal.key entity.name"
