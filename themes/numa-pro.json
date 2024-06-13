@@ -331,33 +331,6 @@
       "name": "String variable"
     },
     {
-      "scope": ["source.regexp", "string.regexp"],
-      "settings": {
-        "foreground": "#032f62"
-      },
-      "name": "String.regexp"
-    },
-    {
-      "scope": [
-        "string.regexp.character-class",
-        "string.regexp constant.character.escape",
-        "string.regexp source.ruby.embedded",
-        "string.regexp string.regexp.arbitrary-repitition"
-      ],
-      "settings": {
-        "foreground": "#032f62"
-      },
-      "name": "String.regexp.special"
-    },
-    {
-      "scope": ["string.regexp constant.character.escape"],
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#22863a"
-      },
-      "name": "String.regexp constant.character.escape"
-    },
-    {
       "scope": ["support.constant"],
       "settings": {
         "foreground": "#362BCF"
