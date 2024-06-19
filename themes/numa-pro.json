@@ -619,6 +619,12 @@
       "settings": {
         "foreground": "#C97474"
       }
+    },
+    {
+      "scope": ["meta.decorator", "meta.decorator variable.other"],
+      "settings": {
+        "foreground": "#358EE8"
+      }
     }
   ]
 }
