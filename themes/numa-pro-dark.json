@@ -162,13 +162,8 @@
       }
     },
     {
-      "scope": ["meta.type punctuation.accessor"],
-      "settings": {
-        "foreground": "#e575c3"
-      }
-    },
-    {
       "scope": [
+        "meta.type punctuation.accessor",
         "punctuation.definition.typeparameters",
         "meta.type.parameters punctuation.separator.comma"
       ],
