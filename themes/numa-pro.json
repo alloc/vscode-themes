@@ -611,8 +611,8 @@
       "scope": [
         "meta.object.type punctuation.definition.block",
         "meta.object.type keyword.operator.spread",
-        "meta.object.member meta.block punctuation.definition.block",
-        "meta.method.declaration meta.block punctuation.definition.block"
+        "meta.objectliteral meta.object.member meta.block punctuation.definition.block",
+        "meta.objectliteral meta.method.declaration meta.block punctuation.definition.block"
       ],
       "settings": {
         "foreground": "#000000"
