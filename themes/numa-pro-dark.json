@@ -714,6 +714,50 @@
       "settings": {
         "foreground": "#91a4bf"
       }
+    },
+    {
+      "scope": ["source.css keyword.other.unit"],
+      "settings": {
+        "foreground": "#7ac09e"
+      }
+    },
+    {
+      "scope": [
+        "source.css support.constant",
+        "source.css meta.property-value"
+      ],
+      "settings": {
+        "foreground": "#ff6983"
+      }
+    },
+    {
+      "scope": [
+        "source.css support.type.property-name",
+        "source.css support.type.vendored"
+      ],
+      "settings": {
+        "foreground": "#b5cbe9"
+      }
+    },
+    {
+      "scope": [
+        "source.css support.function",
+        "source.css entity.other.attribute-name.pseudo-class",
+        "source.css entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#53afff"
+      }
+    },
+    {
+      "scope": [
+        "source.css meta.attribute-selector keyword.operator.pattern",
+        "source.css punctuation.terminator",
+        "source.css punctuation.separator.key-value"
+      ],
+      "settings": {
+        "foreground": "#91a4bf"
+      }
     }
   ]
 }
