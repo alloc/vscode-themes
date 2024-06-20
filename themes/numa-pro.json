@@ -592,7 +592,11 @@
       }
     },
     {
-      "scope": ["keyword.operator.type", "keyword.operator.optional"],
+      "scope": [
+        "keyword.operator.type",
+        "keyword.operator.optional",
+        "keyword.operator.definiteassignment"
+      ],
       "settings": {
         "foreground": "#ce6e05"
       }
