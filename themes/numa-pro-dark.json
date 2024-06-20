@@ -96,9 +96,14 @@
       "name": "Comment"
     },
     {
-      "scope": ["entity.name.constant", "variable.language"],
+      "scope": [
+        "entity.name.constant",
+        "variable.language",
+        "keyword.operator.new"
+      ],
       "settings": {
-        "foreground": "#53afff"
+        "foreground": "#95b3e8",
+        "fontStyle": "italic"
       },
       "name": "Constant"
     },
@@ -123,7 +128,7 @@
     {
       "scope": ["punctuation.accessor", "punctuation.separator.comma"],
       "settings": {
-        "foreground": "#7EA7ED"
+        "foreground": "#8bade8"
       }
     },
     {
@@ -563,7 +568,6 @@
     },
     {
       "scope": [
-        "keyword.operator.new",
         "keyword.operator.logical",
         "keyword.operator.assignment",
         "keyword.operator.ternary",
