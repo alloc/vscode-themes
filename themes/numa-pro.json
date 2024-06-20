@@ -665,6 +665,50 @@
       "settings": {
         "foreground": "#75aa55"
       }
+    },
+    {
+      "scope": ["source.css keyword.other.unit"],
+      "settings": {
+        "foreground": "#3E7058"
+      }
+    },
+    {
+      "scope": [
+        "source.css support.constant",
+        "source.css meta.property-value"
+      ],
+      "settings": {
+        "foreground": "#d73a49"
+      }
+    },
+    {
+      "scope": [
+        "source.css support.type.property-name",
+        "source.css support.type.vendored"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "scope": [
+        "source.css support.function",
+        "source.css entity.other.attribute-name.pseudo-class",
+        "source.css entity.other.attribute-name.pseudo-element"
+      ],
+      "settings": {
+        "foreground": "#362BCF"
+      }
+    },
+    {
+      "scope": [
+        "source.css meta.attribute-selector keyword.operator.pattern",
+        "source.css punctuation.terminator",
+        "source.css punctuation.separator.key-value"
+      ],
+      "settings": {
+        "foreground": "#032F62"
+      }
     }
   ]
 }
