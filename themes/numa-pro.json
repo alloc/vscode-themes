@@ -647,6 +647,24 @@
       "settings": {
         "foreground": "#358EE8"
       }
+    },
+    {
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "#d73a49"
+      }
+    },
+    {
+      "scope": ["punctuation.support.type.property-name"],
+      "settings": {
+        "foreground": "#e77979"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.array"],
+      "settings": {
+        "foreground": "#75aa55"
+      }
     }
   ]
 }
