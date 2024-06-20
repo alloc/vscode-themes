@@ -646,15 +646,57 @@
       }
     },
     {
-      "scope": ["support.type.property-name"],
+      "scope": [
+        "source.json meta.structure.dictionary.json support.type.property-name"
+      ],
       "settings": {
-        "foreground": "#ff6983"
+        "foreground": "#53afff"
+      }
+    },
+    {
+      "scope": [
+        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#d593ff"
+      }
+    },
+    {
+      "scope": [
+        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary.json support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#e575c3"
+      }
+    },
+    {
+      "scope": [
+        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary.json support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#53afff"
+      }
+    },
+    {
+      "scope": [
+        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary.json support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#d593ff"
+      }
+    },
+    {
+      "scope": [
+        "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary.json support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#e575c3"
       }
     },
     {
       "scope": ["punctuation.support.type.property-name"],
       "settings": {
-        "foreground": "#cb5c72"
+        "foreground": "#b5cbe9"
       }
     },
     {
