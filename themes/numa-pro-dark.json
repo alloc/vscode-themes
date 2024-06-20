@@ -644,6 +644,34 @@
       "settings": {
         "foreground": "#99655c"
       }
+    },
+    {
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "#ff6983"
+      }
+    },
+    {
+      "scope": ["punctuation.support.type.property-name"],
+      "settings": {
+        "foreground": "#cb5c72"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.array"],
+      "settings": {
+        "foreground": "#92dd63"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.separator.array.json"
+      ],
+      "settings": {
+        "foreground": "#91a4bf"
+      }
     }
   ]
 }
