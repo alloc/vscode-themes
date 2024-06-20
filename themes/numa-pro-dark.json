@@ -556,7 +556,7 @@
       }
     },
     {
-      "scope": ["keyword.operator"],
+      "scope": ["keyword.operator", "keyword.operator.expression.in"],
       "settings": {
         "foreground": "#20c173"
       }
@@ -568,50 +568,48 @@
         "keyword.operator.assignment",
         "keyword.operator.ternary",
         "keyword.operator.expression",
-        "keyword.operator.optional",
+        "keyword.operator.increment",
+        "keyword.operator.decrement",
         "punctuation.separator.label",
         "punctuation.separator.key-value",
+        "punctuation.destructuring",
         "meta.type storage.modifier"
       ],
       "settings": {
         "foreground": "#ff6983",
         "fontStyle": ""
-      },
-      "name": "Keyword"
-    },
-    {
-      "scope": ["keyword.operator.expression.in"],
-      "settings": {
-        "foreground": "#20c173"
       }
     },
     {
-      "scope": ["keyword.operator.type"],
+      "scope": ["keyword.operator.type", "keyword.operator.optional"],
       "settings": {
         "foreground": "#FFA850"
       }
     },
     {
-      "scope": [
-        "meta.objectliteral punctuation.definition.block",
-        "meta.function.expression meta.objectliteral punctuation.definition.block",
-        "meta.method.declaration.ts meta.block.ts meta.objectliteral punctuation.definition.block.ts",
-        "meta.object.member keyword.operator.spread"
-      ],
+      "scope": ["meta.var storage.type", "keyword.control.flow"],
       "settings": {
-        "foreground": "#ff8b4d"
+        "foreground": "#e99078"
       }
     },
     {
       "scope": [
         "meta.object.type punctuation.definition.block",
-        "meta.objectliteral meta.object.type punctuation.definition.block",
-        "meta.function.expression punctuation.definition.block",
-        "meta.method.declaration.ts meta.block.ts punctuation.definition.block.ts",
-        "meta.objectliteral meta.method.declaration meta.block punctuation.definition.block"
+        "meta.object.type keyword.operator.spread",
+        "meta.object.member meta.block punctuation.definition.block",
+        "meta.method.declaration meta.block punctuation.definition.block"
       ],
       "settings": {
         "foreground": "#b5cbe9"
+      }
+    },
+    {
+      "scope": [
+        "meta.objectliteral punctuation.definition.block",
+        "meta.object keyword.operator.spread"
+      ],
+      "settings": {
+        "foreground": "#ff8b4d"
       }
     },
     {
