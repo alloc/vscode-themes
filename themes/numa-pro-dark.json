@@ -181,6 +181,12 @@
       }
     },
     {
+      "scope": ["meta.object-literal.key entity.name.function"],
+      "settings": {
+        "foreground": "#d593ff"
+      }
+    },
+    {
       "scope": [
         "meta.type.tuple entity.name.label",
         "punctuation.terminator.statement"
