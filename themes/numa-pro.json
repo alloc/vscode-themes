@@ -609,7 +609,8 @@
       "scope": [
         "keyword.operator.type",
         "keyword.operator.optional",
-        "keyword.operator.definiteassignment"
+        "keyword.operator.definiteassignment",
+        "keyword.operator.expression.infer"
       ],
       "settings": {
         "foreground": "#e36622"

@@ -604,7 +604,8 @@
         "keyword.control.flow",
         "keyword.operator.type",
         "keyword.operator.optional",
-        "keyword.operator.definiteassignment"
+        "keyword.operator.definiteassignment",
+        "keyword.operator.expression.infer"
       ],
       "settings": {
         "foreground": "#f08f6c"
