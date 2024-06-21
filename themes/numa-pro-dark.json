@@ -760,12 +760,17 @@
     },
     {
       "scope": [
-        "source.css meta.attribute-selector keyword.operator.pattern",
         "source.css punctuation.terminator",
         "source.css punctuation.separator.key-value"
       ],
       "settings": {
         "foreground": "#91a4bf"
+      }
+    },
+    {
+      "scope": ["source.css meta.attribute-selector keyword.operator.pattern"],
+      "settings": {
+        "foreground": "#20c173"
       }
     }
   ]
