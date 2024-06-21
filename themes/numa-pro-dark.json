@@ -498,7 +498,13 @@
     {
       "scope": ["meta.brace.square"],
       "settings": {
-        "foreground": "#92dd63"
+        "foreground": "#53afff"
+      }
+    },
+    {
+      "scope": ["meta.type meta.brace.square"],
+      "settings": {
+        "foreground": "#e69acf"
       }
     },
     {

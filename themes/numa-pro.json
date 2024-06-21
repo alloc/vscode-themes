@@ -504,7 +504,13 @@
     {
       "scope": ["meta.brace.square"],
       "settings": {
-        "foreground": "#75aa55"
+        "foreground": "#362BCF"
+      }
+    },
+    {
+      "scope": ["meta.type meta.brace.square"],
+      "settings": {
+        "foreground": "#c7449f"
       }
     },
     {
