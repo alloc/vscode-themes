@@ -20,9 +20,9 @@ All of my favorite editor themes.
 
 ### Numa Pro v1.0
 
-_A light theme you can't find anywhere else, where colors are used to help you understand your code._
+_A light & dark theme duo you can't find anywhere else, where colors are used to help you read your code._
 
-⚠️ Currently only optimized for TypeScript/TSX.
+⚠️ Currently only optimized for TypeScript/TSX/HTML/CSS/JSON.
 
 **Special Features**
 
