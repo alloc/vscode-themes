@@ -3,7 +3,7 @@
   "displayName": "Themes To Die For",
   "description": "A collection of my favorite VS Code themes",
   "icon": "icon.png",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "publisher": "aleclarson",
   "repository": {
     "type": "git",
