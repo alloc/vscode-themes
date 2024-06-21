@@ -630,6 +630,12 @@
       }
     },
     {
+      "scope": ["punctuation.definition.section"],
+      "settings": {
+        "foreground": "#91a4bf"
+      }
+    },
+    {
       "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#7ea7ed"

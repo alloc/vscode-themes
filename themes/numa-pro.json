@@ -590,6 +590,7 @@
         "punctuation.separator.label",
         "punctuation.separator.key-value",
         "punctuation.destructuring",
+        "punctuation.definition.section",
         "meta.type storage.modifier"
       ],
       "settings": {
