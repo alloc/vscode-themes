@@ -738,7 +738,7 @@
     {
       "scope": ["punctuation.definition.array"],
       "settings": {
-        "foreground": "#75aa55"
+        "foreground": "#FF4B00"
       }
     },
     {
