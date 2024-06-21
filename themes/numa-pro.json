@@ -126,7 +126,11 @@
       }
     },
     {
-      "scope": ["punctuation.accessor", "punctuation.separator.comma"],
+      "scope": [
+        "punctuation.accessor",
+        "punctuation.separator.comma",
+        "punctuation.separator.parameter"
+      ],
       "settings": {
         "foreground": "#4a4869"
       }
