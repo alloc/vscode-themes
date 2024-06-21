@@ -598,13 +598,13 @@
         "keyword.operator.definiteassignment"
       ],
       "settings": {
-        "foreground": "#ce6e05"
+        "foreground": "#e36622"
       }
     },
     {
       "scope": ["meta.var storage.type", "keyword.control.flow"],
       "settings": {
-        "foreground": "#e06b1e"
+        "foreground": "#e35f22"
       }
     },
     {

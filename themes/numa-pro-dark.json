@@ -581,18 +581,14 @@
     },
     {
       "scope": [
+        "meta.var storage.type",
+        "keyword.control.flow",
         "keyword.operator.type",
         "keyword.operator.optional",
         "keyword.operator.definiteassignment"
       ],
       "settings": {
-        "foreground": "#FFA850"
-      }
-    },
-    {
-      "scope": ["meta.var storage.type", "keyword.control.flow"],
-      "settings": {
-        "foreground": "#e99078"
+        "foreground": "#f08f6c"
       }
     },
     {
