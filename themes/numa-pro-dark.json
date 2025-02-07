@@ -63,6 +63,8 @@
     "editor.stackFrameHighlightBackground": "#ffff6673",
     "editor.inlineValuesBackground": "#ffc80033",
     "editor.inlineValuesForeground": "#b5cbe980",
+    "editor.snippetTabstopHighlightBackground": "#253a5a3f",
+    "editor.snippetFinalTabstopHighlightBackground": "#253a5a3f",
     "editorIndentGuide.activeBackground1": "#5d7dab33",
     "editorIndentGuide.background1": "#394f6d33",
     "input.border": "#b2b2b2",
@@ -87,8 +89,12 @@
     "editorWidget.background": "#1e2838",
     "editorWidget.border": "#b5cbe9",
     "editorSuggestWidget.highlightForeground": "#80aed5",
-    "editorSuggestWidget.selectedBackground": "#e1e1e1",
-    "panel.border": "#80aed5"
+    "editorSuggestWidget.selectedBackground": "#232f43",
+    "panel.border": "#80aed5",
+    "diffEditor.removedTextBackground": "#e95d6752",
+    "diffEditor.insertedTextBackground": "#57be7352",
+    "diffEditor.removedLineBackground": "#ab344052",
+    "diffEditor.insertedLineBackground": "#59b06f52"
   },
   "tokenColors": [
     {
@@ -209,7 +215,11 @@
       }
     },
     {
-      "scope": ["entity.name.tag", "entity.name.tag support.class.component"],
+      "scope": [
+        "entity.name.tag",
+        "entity.name.tag support.class.component",
+        "support.class.component.astro"
+      ],
       "settings": {
         "foreground": "#bdff95"
       }

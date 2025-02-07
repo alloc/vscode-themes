@@ -63,6 +63,8 @@
     "editor.stackFrameHighlightBackground": "#ffff6673",
     "editor.inlineValuesBackground": "#ffc80033",
     "editor.inlineValuesForeground": "#00000080",
+    "editor.snippetTabstopHighlightBackground": "#95b2de41",
+    "editor.snippetFinalTabstopHighlightBackground": "#95b2de41",
     "editorIndentGuide.activeBackground1": "#0d316833",
     "editorIndentGuide.background1": "#9cb2df33",
     "input.border": "#b2b2b2",
@@ -87,8 +89,13 @@
     "editorWidget.background": "#f2f4f7",
     "editorWidget.border": "#000000",
     "editorSuggestWidget.highlightForeground": "#316895",
-    "editorSuggestWidget.selectedBackground": "#e1e1e1",
-    "panel.border": "#316895"
+    "editorSuggestWidget.selectedBackground": "#e9ebf0",
+    "panel.border": "#316895",
+    "diffEditor.removedTextBackground": "#f36f7f52",
+    "diffEditor.insertedTextBackground": "#70e18c52",
+    "diffEditor.removedLineBackground": "#f29ba352",
+    "diffEditor.insertedLineBackground": "#a2f2ba52",
+    "diffEditor.diagonalFill": "#b8c6d232"
   },
   "tokenColors": [
     {
@@ -215,7 +222,11 @@
       }
     },
     {
-      "scope": ["entity.name.tag", "entity.name.tag support.class.component"],
+      "scope": [
+        "entity.name.tag",
+        "entity.name.tag support.class.component",
+        "support.class.component.astro"
+      ],
       "settings": {
         "foreground": "#3EA100"
       }
