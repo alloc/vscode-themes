@@ -28,6 +28,11 @@
         "path": "./themes/gruvbox-material-dark.json"
       },
       {
+        "label": "GruvDark-GBM Light",
+        "uiTheme": "vs",
+        "path": "./themes/gruvdark-gbm-light.json"
+      },
+      {
         "label": "Everforest Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/everforest-dark.json"
@@ -46,6 +51,11 @@
         "label": "New England",
         "uiTheme": "vs",
         "path": "./themes/new-england.json"
+      },
+      {
+        "label": "Nightcall",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nightcall.json"
       },
       {
         "label": "Remedy Bright",
@@ -76,6 +86,11 @@
         "label": "Vim Light Medium",
         "uiTheme": "vs",
         "path": "./themes/vim-light-medium.json"
+      },
+      {
+        "label": "Abelfubu Everforest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abelfubu-everforest.json"
       },
       {
         "label": "Numa Pro",

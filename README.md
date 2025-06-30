@@ -2,31 +2,79 @@
 
 All of my favorite editor themes.
 
-### [Minimal Green](https://github.com/mdoyleaz/vs-code-theme-minimal_green)
+## 👑 Tier 1
 
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/minimal-green.png" width="600" />
-
-### [Noir Rosé Pine Moon](https://github.com/andrewberty/Noir-vscode-theme?tab=readme-ov-file#noir-ros%C3%A9-pine-moon)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/rose-pine-moon.png" width="600" />
-
-### [Gruvbox Material Dark](https://marketplace.visualstudio.com/items?itemName=EstevamSouza.the-best-themes-for-programmers)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-material-dark.png" width="600" />
-
-### [Gruvbox Dark Moist](https://github.com/CraigglesO/gruvbox-dark-moist-vscode)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-dark-moist.png" width="600" />
-
-### [Seoul Dark](https://github.com/aleclarson/vscode-seoul-dark)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/seoul-dark.png" width="600" />
-
-### [Everforest Dark](https://github.com/sainnhe/everforest-vscode)
+### 🌑 [Everforest Dark](https://github.com/sainnhe/everforest-vscode)
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/everforest-dark.png" width="600" />
 
-### Numa Pro v1.0
+### 🌑 [Minimal Green](https://github.com/mdoyleaz/vs-code-theme-minimal_green)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/minimal-green.png" width="600" />
+
+### 🌑 [Noir Rosé Pine Moon](https://github.com/andrewberty/Noir-vscode-theme?tab=readme-ov-file#noir-ros%C3%A9-pine-moon)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/rose-pine-moon.png" width="600" />
+
+### 🌕 [GruvDark-GBM Light](https://github.com/darianmorat/gruvdark-theme)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvdark-gbm-light.png" width="600" />
+
+### 🌕 [Vim Light Medium](https://github.com/jeff-hykin/vim-light-medium)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/vim-light-medium.png" width="600" />
+
+&nbsp;
+
+## 🏆 Tier 2
+
+### 🌑 [Gruvbox Material Dark](https://marketplace.visualstudio.com/items?itemName=EstevamSouza.the-best-themes-for-programmers)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-material-dark.png" width="600" />
+
+### 🌑 [Nightcall](https://github.com/bpat86/nightcall-vscode-theme)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/nightcall.png" width="600" />
+
+### 🌕 [Everforest Light](https://github.com/sainnhe/everforest-vscode)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/everforest-light.png" width="600" />
+
+### 🌕 [New England](https://github.com/dustypomerleau/new-england)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/new-england.png" width="600" />
+
+&nbsp;
+
+## 🏅 Tier 3
+
+### 🌑 [Abelfubu Everforest](https://github.com/abelfubu/abelfubu-dark-vscode-theme/blob/dc0de4d5a08910448e69f565ea22deedd92527ad/themes/abelfubu-everforest.json)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/abelfubu-everforest.png" width="600" />
+
+### 🌑 [Gruvbox Dark Moist](https://github.com/CraigglesO/gruvbox-dark-moist-vscode)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/gruvbox-dark-moist.png" width="600" />
+
+### 🌕 [Remedy Bright](https://github.com/robertrossmann/vscode-remedy)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/remedy-bright.png" width="600" />
+
+### 🌕 [Rosé Pine Dawn](https://github.com/rose-pine/vscode)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/rose-pine-dawn.png" width="600" />
+
+### 🌗 [Seoul Dark](https://github.com/aleclarson/vscode-seoul-dark)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/seoul-dark.png" width="600" />
+
+### 🌗 [Tokyo Night Light](https://github.com/enkia/tokyo-night-vscode-theme)
+
+<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/tokyo-night-light.png" width="600" />
+
+&nbsp;
+
+## Numa Pro v1.0
 
 _A light & dark theme duo you can't find anywhere else, where colors are used to help you read your code._
 
@@ -43,30 +91,6 @@ _A light & dark theme duo you can't find anywhere else, where colors are used to
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/numa-pro.png" width="600" />
 
 <img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/numa-pro-dark.png" width="600" />
-
-### [Vim Light Medium](https://github.com/jeff-hykin/vim-light-medium)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/vim-light-medium.png" width="600" />
-
-### [Rosé Pine Dawn](https://github.com/rose-pine/vscode)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/rose-pine-dawn.png" width="600" />
-
-### [New England](https://github.com/dustypomerleau/new-england)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/new-england.png" width="600" />
-
-### [Remedy Bright](https://github.com/robertrossmann/vscode-remedy)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/remedy-bright.png" width="600" />
-
-### [Everforest Light](https://github.com/sainnhe/everforest-vscode)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/everforest-light.png" width="600" />
-
-### [Tokyo Night Light](https://github.com/enkia/tokyo-night-vscode-theme)
-
-<img src="https://raw.githubusercontent.com/alloc/vscode-themes/master/screenshots/tokyo-night-light.png" width="600" />
 
 &nbsp;
 
