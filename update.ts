@@ -4,12 +4,20 @@ import * as fs from "fs";
 import { join } from "path";
 import { homedir } from "os";
 
+const overrides: Record<string, string> = {
+  "gruvdark-gbm-light": "GruvDark-GBM Light",
+  "rose-pine-moon": "Noir Rosé Pine Moon",
+  "rose-pine-dawn": "Rosé Pine Dawn",
+};
+
 const themes = fs.readdirSync("./themes").map((theme) => {
   const themePath = "./" + join("themes", theme);
-  const label = theme
-    .replace(/\.[^.]+$/, "")
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (l) => l.toUpperCase());
+  const label =
+    overrides[theme.replace(".json", "")] ||
+    theme
+      .replace(/\.[^.]+$/, "")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (l) => l.toUpperCase());
 
   console.log("+", label);
 
